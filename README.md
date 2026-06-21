@@ -35,3 +35,4 @@ The self-healing process is triggered automatically by a CI/CD pipeline failure 
 To avoid the costs of a paid n8n subscription, this project uses a fully local setup exposed to the internet:
 - **Local Docker Container**: n8n is hosted locally using Docker Desktop.
 - **ngrok Tunneling**: To allow GitHub to send failure Webhooks to the local n8n instance, `ngrok` is used to create a secure tunnel. This free service exposes the local Docker container to the internet with a public URL.
+<img width="1024" height="450" alt="image" src="https://github.com/user-attachments/assets/64006627-e068-44c7-b21d-84fc4c32353a" />
